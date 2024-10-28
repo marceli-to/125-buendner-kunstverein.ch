@@ -1,8 +1,32 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-ca398244.css",
+    "file": "assets/app-98bab565.css",
     "isEntry": true,
     "src": "resources/css/app.css"
+  },
+  "resources/css/fonts/SangBleuKingdom-Bold.woff": {
+    "file": "assets/SangBleuKingdom-Bold-7e659b33.woff",
+    "src": "resources/css/fonts/SangBleuKingdom-Bold.woff"
+  },
+  "resources/css/fonts/SangBleuKingdom-Bold.woff2": {
+    "file": "assets/SangBleuKingdom-Bold-82ae026c.woff2",
+    "src": "resources/css/fonts/SangBleuKingdom-Bold.woff2"
+  },
+  "resources/css/fonts/SuisseIntl-Book.woff": {
+    "file": "assets/SuisseIntl-Book-f4f32c9b.woff",
+    "src": "resources/css/fonts/SuisseIntl-Book.woff"
+  },
+  "resources/css/fonts/SuisseIntl-Book.woff2": {
+    "file": "assets/SuisseIntl-Book-b0eb04ec.woff2",
+    "src": "resources/css/fonts/SuisseIntl-Book.woff2"
+  },
+  "resources/css/fonts/SuisseIntl-SemiBold.woff": {
+    "file": "assets/SuisseIntl-SemiBold-b4bc892f.woff",
+    "src": "resources/css/fonts/SuisseIntl-SemiBold.woff"
+  },
+  "resources/css/fonts/SuisseIntl-SemiBold.woff2": {
+    "file": "assets/SuisseIntl-SemiBold-0c4d3367.woff2",
+    "src": "resources/css/fonts/SuisseIntl-SemiBold.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app-350ff511.js",

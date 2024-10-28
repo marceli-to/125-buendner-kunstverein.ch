@@ -19,18 +19,26 @@ export default {
       },
 
       fontFamily: {
-        'neue-haas-unica': ['neue-haas-unica', ...defaultTheme.fontFamily.sans],
+        'book': ['SuisseIntl-Book', ...defaultTheme.fontFamily.sans],
+        'bold': ['SuisseIntl-Bold', ...defaultTheme.fontFamily.sans],
+        'serif': ['SangBleuKingdom-Bold', ...defaultTheme.fontFamily.sans],
       },
 
       colors: {
-
+        'ocean': '#096689',
+        'amber': '#DC9E1E',
+        'pear': '#CFDAB8',
       },      
 
       fontSize: {
-        'sm': '0.875rem', // 14px
-        'base': '1rem',   // 16px 
-        'md': '1.125rem', // 18px
-        'lg': '1.625rem', // 26px
+        'xxs': '0.9375rem',   // 15px
+        'xs': '1rem',         // 16px
+        'sm': '1.25rem',      // 20px
+        'md': '1.3125rem',    // 21px
+        'lg': '1.5rem',       // 24px
+        'xl': '1.75rem',      // 28px
+        '2xl': '2.125rem',    // 34px
+        '3xl': '3.125rem',    // 50px
       },
       
       backgroundImage: {
