@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-ca398244.css",
+    "file": "assets/app-42a241dd.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -9,8 +9,8 @@
     "isEntry": true,
     "src": "resources/js/app.js"
   },
-  "resources/patterns/home.png": {
-    "file": "assets/home-c7dedad9.png",
-    "src": "resources/patterns/home.png"
+  "resources/patterns/jubilaeumsfest.png": {
+    "file": "assets/jubilaeumsfest-d8405b85.png",
+    "src": "resources/patterns/jubilaeumsfest.png"
   }
 }
