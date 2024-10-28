@@ -7,8 +7,7 @@
 [x-cloak] { display: none !important; }
 
 body {
-  background-image: url('../img/patterns/home.png');
-  @apply bg-cover bg-center bg-no-repeat;
+  @apply bg-pattern-home bg-cover bg-center bg-no-repeat;
 }
 
 main {
