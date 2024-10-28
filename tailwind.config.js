@@ -33,6 +33,10 @@ export default {
         'lg': '1.625rem', // 26px
       },
       
+      backgroundImage: {
+        'pattern-home': "url('/patterns/home.png')",
+      },
+
       zIndex: {
         '60': 60,
         '70': 70,

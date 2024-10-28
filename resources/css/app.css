@@ -6,6 +6,10 @@
 
 [x-cloak] { display: none !important; }
 
+body {
+  @apply bg-pattern-home bg-cover bg-center bg-no-repeat;
+}
+
 main {
 }
 
