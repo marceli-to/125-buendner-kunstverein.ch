@@ -1,0 +1,25 @@
+@import "typo/webfonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] { display: none !important; }
+
+main {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+strong {
+}
+
+main p:not(:last-child) {
+}
+
+main a {
+}
