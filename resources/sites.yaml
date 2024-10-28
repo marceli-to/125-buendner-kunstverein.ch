@@ -1,4 +1,12 @@
-default:
+de:
   name: Deutsch
   locale: de
   url: '{{ config:app:url }}'
+rm:
+  name: Rätoromanisch
+  url: '{{ config:app:url }}/rm'
+  locale: rm
+it:
+  name: Italienisch
+  url: '{{ config:app:url }}/it'
+  locale: it
