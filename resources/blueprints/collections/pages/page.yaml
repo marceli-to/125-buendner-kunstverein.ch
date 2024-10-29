@@ -45,6 +45,37 @@ tabs:
                       fields:
                         -
                           import: editor
+                    teaser:
+                      display: Teaser
+                      instructions: 'Teaser für Startseite hinzufügen'
+                      icon: text-formatting-initial-letter
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: textarea
+                            display: Titel
+                            localizable: false
+                        -
+                          handle: text
+                          field:
+                            type: textarea
+                            display: Text
+                            localizable: false
+                        -
+                          handle: link
+                          field:
+                            collections:
+                              - pages
+                            type: link
+                            display: Link
+                            localizable: false
+                        -
+                          handle: linktext
+                          field:
+                            type: text
+                            display: Linktext
+                            localizable: false
   seo:
     display: SEO
     sections:

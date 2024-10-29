@@ -1,8 +1,9 @@
 {{ if sub_heading }}
-  {{ partial:headings/h2 }}
+  {{ partial:headings/h2 class="col-span-6 lg:col-span-8 lg:col-start-3" }}
 {{ /if }}
 
-<article class="content {{ is_homepage ? 'text-white' : 'text-black' }} col-span-5 col-start-2 lg:col-start-5 mb-20 lg:mb-40 last-of-type:mb-0 leading-[1.33] lg:leading-[1.375]">
+<article 
+  class="content {{ is_homepage ? 'text-white col-span-6 lg:col-span-5 mb-40 lg:mb-60' : 'text-black col-start-2 col-span-5 mb-20 lg:mb-40' }}  lg:col-start-5 last-of-type:mb-0 leading-[1.3] lg:leading-[1.375]">
   
   {{ editor }}
 

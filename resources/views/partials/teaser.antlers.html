@@ -1,0 +1,15 @@
+<article class="col-span-6 lg:col-span-5 lg:col-start-3 mb-20 lg:mb-40 last-of-type:mb-0 leading-[1.3] lg:leading-[1.375]">
+  {{ partial:headings/h2 :sub_heading="title" }}
+  <p class="font-semibold">{{ text | nl2br }}</p>
+  {{ if link }}
+  <div>
+    <a 
+      href="{{ link }}" 
+      title="{{ text }}"
+      class="font-semibold inline-flex gap-x-5 justify-start items-center hover:text-amber transition-colors duration-200">
+      {{ linktext }}
+      {{ partial:icons/arrow class="w-14 h-auto" }}
+    </a>
+  </div>
+  {{ /if }}
+</article>
