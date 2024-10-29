@@ -14,13 +14,18 @@ export default {
   theme: {
     extend: {
 
+      maxWidth: {
+        'page': '1380px', // 1380px
+      },
+
       screens: {
         'xs': '480px',
+        '2xl': '1440px',
       },
 
       fontFamily: {
         'book': ['SuisseIntl-Book', ...defaultTheme.fontFamily.sans],
-        'bold': ['SuisseIntl-Bold', ...defaultTheme.fontFamily.sans],
+        'semibold': ['SuisseIntl-SemiBold', ...defaultTheme.fontFamily.sans],
         'serif': ['SangBleuKingdom-Bold', ...defaultTheme.fontFamily.sans],
       },
 

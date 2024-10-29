@@ -1,12 +1,12 @@
-<nav class="{{ class }}"></nav>
-  <ul class="flex space-x-15">
+<nav class="{{ class }}">
+  <ul>
     {{ locales current_first="false" }}
       <li>
         <a 
           href="{{ permalink }}" 
           title="{{ locale:locale }}"
-          class="{{ site:short_locale == locale:locale ? 'text-red-200' : '' }}">
-          {{ locale:locale | substr:0:1 }}
+          class="uppercase {{ site:short_locale == locale:locale ? 'font-semibold' : '' }}">
+          {{ locale:locale }}
         </a>
       </li>
     {{ /locales }}

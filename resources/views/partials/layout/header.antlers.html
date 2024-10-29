@@ -1,8 +1,10 @@
-<header class="{{ class }}">
-  <a href="/" title="Startseite" class="block w-200">
-    {{ partial:icons/logo class="block w-full h-auto" }}
-  </a>
-  {{ partial:menu/main/button }}
+<header class="{{ class }} w-full">
+  <div class="relative pt-45 lg:pt-0 flex justify-end items-end lg:items-start lg:grid lg:grid-cols-12 lg:gap-x-20">
+    {{ partial:menu/language/wrapper class="lg:text-white hidden lg:block {{ !is_homepage ? 'lg:hidden' : '' }} lg:col-span-1 lg:col-start-2" }}
+    {{ partial:menu/main/button-open class="text-white {{ !is_homepage ? '!text-black' : '' }}" }}
+    <a href="/" title="Startseite" class="block lg:col-span-3 lg:col-start-9 lg:flex lg:justify-end text-white"> 
+      {{ partial:icons/logo class="w-[250px] lg:w-[300px] h-auto {{ !is_homepage ? 'text-black' : '' }}" }}
+    </a>
+  </div>
   {{ partial:menu/main/wrapper }}
-  {{ partial:menu/language/wrapper }}
 </header>
