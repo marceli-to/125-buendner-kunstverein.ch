@@ -1,4 +1,8 @@
-<article class="max-w-2xl hyphens-auto">
+{{ if sub_heading }}
+  {{ partial:headings/h2 }}
+{{ /if }}
+
+<article class="col-span-5 col-start-2 lg:col-start-5 mb-20 lg:mb-40 last-of-type:mb-0 leading-[1.33] lg:leading-[1.375]">
   {{ editor }}
 </article>
 

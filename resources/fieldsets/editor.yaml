@@ -1,6 +1,12 @@
 title: Editor
 fields:
   -
+    handle: sub_heading
+    field:
+      type: textarea
+      display: Titel
+      localizable: false
+  -
     handle: editor
     field:
       buttons:

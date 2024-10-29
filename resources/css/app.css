@@ -7,7 +7,15 @@
 [x-cloak] { display: none !important; }
 
 body {
-  @apply bg-[url(../patterns/home.png)] bg-cover bg-left-top bg-no-repeat;
+  @apply bg-cover bg-left-top bg-no-repeat;
+}
+
+body.page-home {
+  @apply bg-[url(../patterns/home.png)];
+}
+
+body.page-information {
+  @apply bg-[url(../patterns/information.png)];
 }
 
 main {
@@ -20,9 +28,11 @@ h2 {
 }
 
 strong {
+  @apply font-semibold;
 }
 
 main p:not(:last-child) {
+  @apply mb-16 lg:mb-24;
 }
 
 main a {

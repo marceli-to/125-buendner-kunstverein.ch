@@ -1,3 +1,7 @@
 {{ if type == 'editor' }}
   {{ partial:editor }}
 {{ /if }}
+
+{{ if type == 'main_heading' }}
+  {{ partial:headings/h1 }}
+{{ /if }}

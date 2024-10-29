@@ -27,9 +27,24 @@ tabs:
                   display: Hauptelemente
                   icon: addon-boxes-stack
                   sets:
-                    neues_set:
-                      display: 'Neues Set'
-                      fields: {  }
+                    main_heading:
+                      display: Hauptitel
+                      instructions: 'Haupttitel hinzufügen'
+                      icon: text-formatting-all-caps
+                      fields:
+                        -
+                          handle: main_heading
+                          field:
+                            type: textarea
+                            display: Haupttitel
+                            localizable: false
+                    editor:
+                      display: Texteditor
+                      instructions: 'Texteditor mit optionalem Titel hinzufügen'
+                      icon: text-formatting-markdown
+                      fields:
+                        -
+                          import: editor
   seo:
     display: SEO
     sections:

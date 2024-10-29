@@ -5,20 +5,47 @@ fields:
     field:
       type: toggle
       display: Debug
+      localizable: false
   -
     handle: page_class
     field:
       options:
-        page-privacy: Impressum/Datenschutz
+        -
+          key: page-home
+          value: Startseite
+        -
+          key: page-privacy
+          value: Impressum/Datenschutz
+        -
+          key: page-anniversary-party
+          value: Jubiläumsfest
+        -
+          key: page-information
+          value: Informationen
+        -
+          key: page-blog
+          value: Blog
+        -
+          key: page-exhibitions
+          value: Ausstellungen
+        -
+          key: page-a-table
+          value: 'A Table'
       type: select
       display: 'Seiten CSS-Klasse'
+      localizable: false
+      clearable: true
+      instructions: 'Für die Anwendung seitenspezifischer Styles (z.B. Hintergrundbild)'
+      instructions_position: below
   -
     handle: template
     field:
       type: template
       display: Template
+      localizable: false
   -
     handle: layout
     field:
       type: template
       display: Layout
+      localizable: false
