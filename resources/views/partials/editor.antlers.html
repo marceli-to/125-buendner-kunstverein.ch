@@ -2,7 +2,28 @@
   {{ partial:headings/h2 }}
 {{ /if }}
 
-<article class="col-span-5 col-start-2 lg:col-start-5 mb-20 lg:mb-40 last-of-type:mb-0 leading-[1.33] lg:leading-[1.375]">
+<article class="content {{ is_homepage ? 'text-white' : 'text-black' }} col-span-5 col-start-2 lg:col-start-5 mb-20 lg:mb-40 last-of-type:mb-0 leading-[1.33] lg:leading-[1.375]">
+  
   {{ editor }}
+
+    {{ if type == 'text' }}
+      {{ text }}
+    {{ /if }}
+
+    {{ if type == 'external_link' }}
+      <div class="mt-16 lg:mt-24 last-of-type:mt-0">
+        <a 
+          href="{{ url }}" 
+          target="_blank" 
+          title="{{ text }}"
+          class="font-semibold inline-flex gap-x-5 hover:text-amber transition-colors duration-200">
+          {{ partial:icons/arrow class="w-14 h-auto" }}
+          {{ text }}
+        </a>
+      </div>
+    {{ /if }}
+
+  {{ /editor }}
+  
 </article>
 

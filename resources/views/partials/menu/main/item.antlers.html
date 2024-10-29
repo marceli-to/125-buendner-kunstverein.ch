@@ -1,7 +1,7 @@
 <li>
   <a 
     href="{{ url }}" 
-    class="font-serif text-xl lg:text-3xl text-center block w-full {{ is_current || is_parent ? 'is-active' : '' }}"
+    class="font-serif text-xl lg:text-3xl text-center block w-full hover:text-amber transition-colors duration-200 {{ is_current || is_parent ? 'text-amber' : '' }}"
     target="{{ is_external ? '_blank' : '_self' }}"
     title="{{ title }}">
     {{ title }}

@@ -11,7 +11,23 @@ body {
 }
 
 body.page-home {
-  @apply bg-[url(../patterns/home.png)];
+  @apply bg-[url(../patterns/home-mobile.png)] md:bg-[url(../patterns/home.png)];
+}
+
+body.page-anniversary-party {
+  @apply bg-[url(../patterns/anniversary-party.png)];
+}
+
+body.page-a-table {
+  @apply bg-[url(../patterns/a-table.png)];
+}
+
+body.page-blog {
+  @apply bg-[url(../patterns/blog.png)];
+}
+
+body.page-exhibitions {
+  @apply bg-[url(../patterns/exhibitions.png)];
 }
 
 body.page-information {
@@ -35,5 +51,6 @@ main p:not(:last-child) {
   @apply mb-16 lg:mb-24;
 }
 
-main a {
+article.content a {
+  @apply hover:text-amber transition-colors duration-200;
 }

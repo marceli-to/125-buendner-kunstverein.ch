@@ -1,26 +1,57 @@
 title: Editor
 fields:
   -
+    handle: titel
+    field:
+      type: toggle
+      display: 'Titel?'
+      localizable: false
+  -
     handle: sub_heading
     field:
       type: textarea
       display: Titel
       localizable: false
+      if:
+        titel: 'equals true'
   -
     handle: editor
     field:
       buttons:
-        - h1
-        - h2
         - h3
         - bold
         - unorderedlist
         - removeformat
         - anchor
-        - nobr
       toolbar_mode: floating
       remove_empty_nodes: true
       type: bard
       display: Text
       container: assets
       localizable: true
+      sets:
+        elements:
+          display: Elemente
+          icon: addon-boxes-stack
+          sets:
+            external_link:
+              display: 'Externer Link'
+              instructions: 'Externe Link mit Icon hinzufügen'
+              icon: link-external
+              fields:
+                -
+                  handle: url
+                  field:
+                    collections:
+                      - pages
+                    container: assets
+                    type: link
+                    display: URL
+                    localizable: false
+                -
+                  handle: text
+                  field:
+                    type: text
+                    display: Text
+                    instructions: 'Angezeigter Text'
+                    localizable: false

@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-2df54e63.css",
+    "file": "assets/app-4992a62c.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -32,6 +32,26 @@
     "file": "assets/app-350ff511.js",
     "isEntry": true,
     "src": "resources/js/app.js"
+  },
+  "resources/patterns/a-table.png": {
+    "file": "assets/a-table-709e9a7e.png",
+    "src": "resources/patterns/a-table.png"
+  },
+  "resources/patterns/anniversary-party.png": {
+    "file": "assets/anniversary-party-d8405b85.png",
+    "src": "resources/patterns/anniversary-party.png"
+  },
+  "resources/patterns/blog.png": {
+    "file": "assets/blog-8883b9d1.png",
+    "src": "resources/patterns/blog.png"
+  },
+  "resources/patterns/exhibitions.png": {
+    "file": "assets/exhibitions-1e5e4b6b.png",
+    "src": "resources/patterns/exhibitions.png"
+  },
+  "resources/patterns/home-mobile.png": {
+    "file": "assets/home-mobile-ccf64a02.png",
+    "src": "resources/patterns/home-mobile.png"
   },
   "resources/patterns/home.png": {
     "file": "assets/home-c7dedad9.png",
