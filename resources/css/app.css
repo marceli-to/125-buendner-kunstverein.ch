@@ -11,27 +11,49 @@ body {
 }
 
 body.page-home {
-  @apply bg-[url(../patterns/home-mobile.png)] md:bg-[url(../patterns/home.png)];
+  @apply bg-[url(../patterns/background-home-mobile.png)] md:bg-[url(../patterns/background-home.png)];
 }
 
 body.page-anniversary-party {
-  @apply bg-[url(../patterns/anniversary-party.png)];
+  @apply bg-[url(../patterns/background-anniversary-party.png)];
 }
 
 body.page-a-table {
-  @apply bg-[url(../patterns/a-table.png)];
+  @apply bg-[url(../patterns/background-a-table.png)];
 }
 
 body.page-blog {
-  @apply bg-[url(../patterns/blog.png)];
+  @apply bg-[url(../patterns/background-blog.png)];
 }
 
 body.page-exhibitions {
-  @apply bg-[url(../patterns/exhibitions.png)];
+  @apply bg-[url(../patterns/background-exhibitions.png)];
+}
+
+body.page-exhibitions {
+  @apply relative z-70;
+}
+
+body.page-anniversary-party main,
+body.page-a-table main,
+body.page-exhibitions main {
+  @apply relative z-20;
+}
+
+body.page-exhibitions:before {
+  @apply content-[''] absolute top-0 left-0 z-10 w-1/2 sm:w-[45vw] aspect-square bg-[url(../patterns/triangle-exhibitions.png)] bg-no-repeat bg-left-top bg-contain;
+}
+
+body.page-anniversary-party:before {
+  @apply content-[''] absolute bottom-0 right-0 z-10 w-1/2 sm:w-[25vw] aspect-square bg-[url(../patterns/triangle-anniversary-party.png)] bg-no-repeat bg-left-top bg-contain;
+}
+
+body.page-a-table:before {
+  @apply content-[''] absolute top-[40%] 2xl:top-auto 2xl:bottom-0 left-0 z-10 w-1/2 sm:w-[25vw] aspect-square bg-[url(../patterns/triangle-a-table.png)] bg-no-repeat bg-left-top bg-contain;
 }
 
 body.page-information {
-  @apply bg-[url(../patterns/information.png)];
+  @apply bg-[url(../patterns/background-information.png)];
 }
 
 main {

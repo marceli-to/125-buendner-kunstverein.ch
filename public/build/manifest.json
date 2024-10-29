@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-4992a62c.css",
+    "file": "assets/app-12243960.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -33,32 +33,44 @@
     "isEntry": true,
     "src": "resources/js/app.js"
   },
-  "resources/patterns/a-table.png": {
-    "file": "assets/a-table-709e9a7e.png",
-    "src": "resources/patterns/a-table.png"
+  "resources/patterns/background-a-table.png": {
+    "file": "assets/background-a-table-709e9a7e.png",
+    "src": "resources/patterns/background-a-table.png"
   },
-  "resources/patterns/anniversary-party.png": {
-    "file": "assets/anniversary-party-d8405b85.png",
-    "src": "resources/patterns/anniversary-party.png"
+  "resources/patterns/background-anniversary-party.png": {
+    "file": "assets/background-anniversary-party-d8405b85.png",
+    "src": "resources/patterns/background-anniversary-party.png"
   },
-  "resources/patterns/blog.png": {
-    "file": "assets/blog-8883b9d1.png",
-    "src": "resources/patterns/blog.png"
+  "resources/patterns/background-blog.png": {
+    "file": "assets/background-blog-8883b9d1.png",
+    "src": "resources/patterns/background-blog.png"
   },
-  "resources/patterns/exhibitions.png": {
-    "file": "assets/exhibitions-1e5e4b6b.png",
-    "src": "resources/patterns/exhibitions.png"
+  "resources/patterns/background-exhibitions.png": {
+    "file": "assets/background-exhibitions-1e5e4b6b.png",
+    "src": "resources/patterns/background-exhibitions.png"
   },
-  "resources/patterns/home-mobile.png": {
-    "file": "assets/home-mobile-ccf64a02.png",
-    "src": "resources/patterns/home-mobile.png"
+  "resources/patterns/background-home-mobile.png": {
+    "file": "assets/background-home-mobile-ccf64a02.png",
+    "src": "resources/patterns/background-home-mobile.png"
   },
-  "resources/patterns/home.png": {
-    "file": "assets/home-c7dedad9.png",
-    "src": "resources/patterns/home.png"
+  "resources/patterns/background-home.png": {
+    "file": "assets/background-home-c7dedad9.png",
+    "src": "resources/patterns/background-home.png"
   },
-  "resources/patterns/information.png": {
-    "file": "assets/information-a7fcdbf0.png",
-    "src": "resources/patterns/information.png"
+  "resources/patterns/background-information.png": {
+    "file": "assets/background-information-a7fcdbf0.png",
+    "src": "resources/patterns/background-information.png"
+  },
+  "resources/patterns/triangle-a-table.png": {
+    "file": "assets/triangle-a-table-b07a94f2.png",
+    "src": "resources/patterns/triangle-a-table.png"
+  },
+  "resources/patterns/triangle-anniversary-party.png": {
+    "file": "assets/triangle-anniversary-party-4464cdd3.png",
+    "src": "resources/patterns/triangle-anniversary-party.png"
+  },
+  "resources/patterns/triangle-exhibitions.png": {
+    "file": "assets/triangle-exhibitions-4132f54a.png",
+    "src": "resources/patterns/triangle-exhibitions.png"
   }
 }
