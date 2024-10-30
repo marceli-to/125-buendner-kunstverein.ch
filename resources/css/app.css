@@ -69,7 +69,7 @@ strong {
 }
 
 main p:not(:last-child) {
-  @apply mb-16 lg:mb-24;
+  @apply mb-16 lg:mb-20;
 }
 
 article.content a {
