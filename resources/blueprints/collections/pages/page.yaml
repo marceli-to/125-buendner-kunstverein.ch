@@ -76,6 +76,42 @@ tabs:
                             type: text
                             display: Linktext
                             localizable: false
+                    links:
+                      display: Links
+                      instructions: 'Linkliste für Startseite hinzufügen.'
+                      icon: link
+                      fields:
+                        -
+                          handle: link
+                          field:
+                            type: replicator
+                            display: Link
+                            localizable: false
+                            sets:
+                              link:
+                                display: Link
+                                instructions: 'Link hinzufügen'
+                                icon: link
+                                sets:
+                                  link:
+                                    display: Link
+                                    instructions: 'Link hinzufügen'
+                                    icon: link
+                                    fields:
+                                      -
+                                        handle: url
+                                        field:
+                                          collections:
+                                            - pages
+                                          type: link
+                                          display: Url
+                                          localizable: false
+                                      -
+                                        handle: text
+                                        field:
+                                          type: text
+                                          display: Text
+                                          localizable: false
   seo:
     display: SEO
     sections:

@@ -7,7 +7,7 @@
 [x-cloak] { display: none !important; }
 
 body {
-  @apply bg-cover bg-left-top bg-no-repeat;
+  @apply bg-cover bg-left-top bg-no-repeat bg-fixed ;
 }
 
 /* Backgrounds */
@@ -40,7 +40,6 @@ body.page-information {
 }
 
 /* Triangles */
-
 body.page-anniversary-party main,
 body.page-a-table main,
 body.page-exhibitions main {
@@ -75,4 +74,10 @@ main p:not(:last-child) {
 
 article.content a {
   @apply hover:text-amber transition-colors duration-200;
+}
+
+/* Prevent overflow/scrolling when menu is open */
+html.has-menu body,
+html.has-menu main {
+  @apply max-h-dvh md:max-h-screen overflow-y-hidden;
 }
