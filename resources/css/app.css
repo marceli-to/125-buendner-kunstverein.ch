@@ -10,6 +10,7 @@ body {
   @apply bg-cover bg-left-top bg-no-repeat;
 }
 
+/* Backgrounds */
 body.page-home {
   @apply bg-[url(../patterns/background-home-mobile.png)] md:bg-[url(../patterns/background-home.png)];
 }
@@ -34,35 +35,34 @@ body.page-exhibitions {
   @apply relative z-70;
 }
 
+body.page-information {
+  @apply bg-[url(../patterns/background-information.png)];
+}
+
+/* Triangles */
+
 body.page-anniversary-party main,
 body.page-a-table main,
 body.page-exhibitions main {
   @apply relative z-20;
 }
 
+body.page-exhibitions:before,
+body.page-anniversary-party:before,
+body.page-a-table:before {
+  @apply content-[''] fixed z-10 bg-no-repeat bg-left-top bg-contain aspect-square;
+}
+
 body.page-exhibitions:before {
-  @apply content-[''] absolute top-0 left-0 z-10 w-1/2 sm:w-[45vw] aspect-square bg-[url(../patterns/triangle-exhibitions.png)] bg-no-repeat bg-left-top bg-contain;
+  @apply top-0 left-0 w-1/2 sm:w-[45vw] lg:w-[35vw] bg-[url(../patterns/triangle-exhibitions.png)] ;
 }
 
 body.page-anniversary-party:before {
-  @apply content-[''] absolute bottom-0 right-0 z-10 w-1/2 sm:w-[25vw] aspect-square bg-[url(../patterns/triangle-anniversary-party.png)] bg-no-repeat bg-left-top bg-contain;
+  @apply hidden lg:block lg:bottom-0 right-0 w-1/2 sm:w-[25vw] bg-[url(../patterns/triangle-anniversary-party.png)];
 }
 
 body.page-a-table:before {
-  @apply content-[''] absolute top-[40%] 2xl:top-auto 2xl:bottom-0 left-0 z-10 w-1/2 sm:w-[25vw] aspect-square bg-[url(../patterns/triangle-a-table.png)] bg-no-repeat bg-left-top bg-contain;
-}
-
-body.page-information {
-  @apply bg-[url(../patterns/background-information.png)];
-}
-
-main {
-}
-
-h1 {
-}
-
-h2 {
+  @apply hidden lg:block lg:bottom-0 left-0 w-1/2 sm:w-[25vw] bg-[url(../patterns/triangle-a-table.png)];
 }
 
 strong {

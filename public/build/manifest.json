@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-b42b53b2.css",
+    "file": "assets/app-78693bac.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -34,43 +34,43 @@
     "src": "resources/js/app.js"
   },
   "resources/patterns/background-a-table.png": {
-    "file": "assets/background-a-table-709e9a7e.png",
+    "file": "assets/background-a-table-987e5bf8.png",
     "src": "resources/patterns/background-a-table.png"
   },
   "resources/patterns/background-anniversary-party.png": {
-    "file": "assets/background-anniversary-party-d8405b85.png",
+    "file": "assets/background-anniversary-party-631345ce.png",
     "src": "resources/patterns/background-anniversary-party.png"
   },
   "resources/patterns/background-blog.png": {
-    "file": "assets/background-blog-8883b9d1.png",
+    "file": "assets/background-blog-d5b28de5.png",
     "src": "resources/patterns/background-blog.png"
   },
   "resources/patterns/background-exhibitions.png": {
-    "file": "assets/background-exhibitions-1e5e4b6b.png",
+    "file": "assets/background-exhibitions-a7914010.png",
     "src": "resources/patterns/background-exhibitions.png"
   },
   "resources/patterns/background-home-mobile.png": {
-    "file": "assets/background-home-mobile-ccf64a02.png",
+    "file": "assets/background-home-mobile-ca914c00.png",
     "src": "resources/patterns/background-home-mobile.png"
   },
   "resources/patterns/background-home.png": {
-    "file": "assets/background-home-c7dedad9.png",
+    "file": "assets/background-home-cf4dfa72.png",
     "src": "resources/patterns/background-home.png"
   },
   "resources/patterns/background-information.png": {
-    "file": "assets/background-information-a7fcdbf0.png",
+    "file": "assets/background-information-95a3736b.png",
     "src": "resources/patterns/background-information.png"
   },
   "resources/patterns/triangle-a-table.png": {
-    "file": "assets/triangle-a-table-b07a94f2.png",
+    "file": "assets/triangle-a-table-aec0ba42.png",
     "src": "resources/patterns/triangle-a-table.png"
   },
   "resources/patterns/triangle-anniversary-party.png": {
-    "file": "assets/triangle-anniversary-party-4464cdd3.png",
+    "file": "assets/triangle-anniversary-party-20ac2202.png",
     "src": "resources/patterns/triangle-anniversary-party.png"
   },
   "resources/patterns/triangle-exhibitions.png": {
-    "file": "assets/triangle-exhibitions-4132f54a.png",
+    "file": "assets/triangle-exhibitions-d41d87be.png",
     "src": "resources/patterns/triangle-exhibitions.png"
   }
 }
