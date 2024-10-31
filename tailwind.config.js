@@ -31,8 +31,8 @@ export default {
 
       colors: {
         'ocean': '#096689',
-        'amber': '#DC9E1E',
-        'pear': '#CFDAB8',
+        'amber': '#ffa51e',
+        'pear': '#cedab8',
       },      
 
       fontSize: {
