@@ -5,10 +5,10 @@ tabs:
       -
         fields:
           -
-            handle: post_date
+            handle: periode
             field:
-              type: date
-              display: Datum
+              type: text
+              display: Datum/Zeitraum
               localizable: false
           -
             handle: title

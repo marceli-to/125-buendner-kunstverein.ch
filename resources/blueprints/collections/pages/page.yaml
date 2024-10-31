@@ -112,6 +112,10 @@ tabs:
                                           type: text
                                           display: Text
                                           localizable: false
+                    posts:
+                      display: 'Blog Beiträge'
+                      icon: dashboard-layout-2
+                      fields: {  }
   seo:
     display: SEO
     sections:
