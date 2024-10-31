@@ -42,8 +42,16 @@ return [
         [ 
           'type' => 'collection',
           'collection' => 'pages',
-          'limit' => 5,
+          'limit' => 10,
           'title' => 'Seiten',
+          'width' => 50,
+          'sort' => 'order',
+        ], 
+        [ 
+          'type' => 'collection',
+          'collection' => 'posts',
+          'limit' => 10,
+          'title' => 'Blog',
           'width' => 50,
           'sort' => 'order',
         ], 
