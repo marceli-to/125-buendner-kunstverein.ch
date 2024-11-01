@@ -57,11 +57,11 @@ body.page-exhibitions:before {
 }
 
 body.page-anniversary-party:before {
-  @apply top-[60%] lg:top-[60%] right-0 w-1/2 sm:w-[35vw] lg:w-[40vw] bg-[url(../patterns/triangle-anniversary-party.png)];
+  @apply hidden md:block md:top-[60%] lg:top-[60%] right-0 w-1/2 sm:w-[35vw] lg:w-[40vw] bg-[url(../patterns/triangle-anniversary-party.png)];
 }
 
 body.page-a-table:before {
-  @apply top-[30%] lg:top-[45%] left-0 w-1/2 sm:w-[25vw] lg:w-[26vw] bg-[url(../patterns/triangle-a-table.png)]; 
+  @apply hidden md:block md:top-[30%] lg:top-[45%] left-0 w-1/2 sm:w-[25vw] lg:w-[26vw] bg-[url(../patterns/triangle-a-table.png)]; 
 }
 
 strong {

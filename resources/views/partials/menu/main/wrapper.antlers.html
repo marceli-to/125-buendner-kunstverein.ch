@@ -3,7 +3,7 @@
   x-show="menu"
   class="bg-white/95 h-[calc(100dvh_-_10px)] lg:h-[calc(100vh_-_30px)] absolute z-30 -top-15 -left-15 lg:-top-30 lg:-left-30 w-[calc(100%_+_30px)] lg:w-[calc(100%_+_60px)] 2xl:w-full 2xl:left-0 mx-auto">
   {{ partial:menu/main/button-close class="absolute top-15 left-15 lg:top-25 lg:left-1/2 lg:-translate-x-1/2" }}
-  <ul class="px-20 {{ is_homepage ? 'mt-100 lg:mt-110' : 'mt-121 lg:mt-128' }} max-w-[480px] mx-auto flex flex-col space-y-8 leading-[1.2]">
+  <ul class="px-20 {{ is_homepage ? 'mt-100 lg:mt-110' : 'mt-121 lg:mt-128' }} max-w-[480px] mx-auto flex flex-col space-y-8 md:space-y-0 leading-[1.2]">
     {{ nav:main }}
       {{ partial:menu/main/item }}
     {{ /nav:main }}
