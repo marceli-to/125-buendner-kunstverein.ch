@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-ae66c098.css",
+    "file": "assets/app-2cfe38a7.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -54,7 +54,7 @@
     "src": "resources/patterns/background-home-mobile.png"
   },
   "resources/patterns/background-home.png": {
-    "file": "assets/background-home-cf4dfa72.png",
+    "file": "assets/background-home-dec73eec.png",
     "src": "resources/patterns/background-home.png"
   },
   "resources/patterns/background-information.png": {

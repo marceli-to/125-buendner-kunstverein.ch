@@ -1,8 +1,37 @@
 <div class="mt-56 lg:mt-0 grid grid-cols-6 lg:grid-cols-12 gap-x-6 lg:gap-x-20 max-w-page mx-auto">
-  <h1 class="col-span-full lg:col-span-7 xl:col-span-6 lg:!col-start-3 flex flex-col font-serif text-white text-2xl lg:text-3xl leading-[1.2]">
-    <span class="block lg:pl-90">Gemeinsam</span>
-    <span class="block lg:pl-90">Kunst entdecken</span>
-    <span class="block">125 Jahre Bündner</span>
-    <span class="block pl-90 lg:pl-175">Kunstverein</span>
+  <h1 class="col-span-full lg:col-span-10 xl:col-span-8 lg:!col-start-3 flex flex-col font-serif text-white text-2xl lg:text-3xl leading-[1.2]">
+
+    {{ if site:short_locale == 'de' }}
+      <span class="block lg:pl-90">Gemeinsam</span>
+      <span class="block lg:pl-90">Kunst entdecken</span>
+      <span class="block">125 Jahre Bündner</span>
+      <span class="block pl-90 lg:pl-175">Kunstverein</span>
+    {{ /if }}
+
+    {{ if site:short_locale == 'rm' }}
+      <span class="block lg:hidden">Scuvrir</span>
+      <span class="block lg:hidden">communablamain</span>
+      <span class="block lg:hidden">art – 125 onns</span>
+      <span class="block pl-45 lg:hidden">Uniun</span>
+      <span class="block pl-45 lg:hidden">grischuna d’art</span>
+
+      <span class="hidden lg:block lg:pl-90">Scuvrir</span>
+      <span class="hidden lg:block lg:pl-90">communablamain art –</span>
+      <span class="hidden lg:block">125 onns Uniun</span>
+      <span class="hidden pl-45 lg:block lg:pl-182">grischuna d’art</span>
+    {{ /if }}
+
+    {{ if site:short_locale == 'it' }}
+      <span class="block lg:hidden">Scoprire l’arte</span>
+      <span class="block lg:hidden">insieme – 125 anni</span>
+      <span class="block lg:hidden">Associazione</span>
+      <span class="block pl-100 lg:hidden">di Belle Arti</span>
+      <span class="block lg:hidden">dei Grigioni</span>
+
+      <span class="hidden lg:block lg:pl-90">Scoprire</span>
+      <span class="hidden lg:block lg:pl-90">l’arte insieme –</span>
+      <span class="hidden lg:block">125 anni Associazione di</span>
+      <span class="hidden pl-45 lg:block lg:pl-182">Belle Arti dei Grigioni</span>
+    {{ /if }}
   </h1>
 </div>

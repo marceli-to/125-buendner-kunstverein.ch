@@ -55,3 +55,9 @@ fields:
                     display: Text
                     instructions: 'Angezeigter Text'
                     localizable: false
+  -
+    handle: inset
+    field:
+      type: toggle
+      display: 'Texteinzug?'
+      localizable: false
