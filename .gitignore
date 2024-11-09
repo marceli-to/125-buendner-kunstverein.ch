@@ -24,5 +24,6 @@ INSTALL.txt
 
 content/
 public/assets
+public/robots.txt
 resources/users
 users
