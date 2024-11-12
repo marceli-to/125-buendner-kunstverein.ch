@@ -72,6 +72,19 @@ main p:not(:last-child) {
   @apply mb-16 lg:mb-20;
 }
 
+main ul:not(:last-child) {
+  @apply m-0 p-0 mb-15 md:mb-25 list-['—_'];
+}
+
+main ul:last-child {
+  @apply mb-0;
+}
+
+main ul li {
+  @apply list-item ml-18
+}
+
+
 article.content a {
   @apply underline underline-offset-4 decoration-2 hover:no-underline;
 }
