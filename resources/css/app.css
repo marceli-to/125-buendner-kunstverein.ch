@@ -90,7 +90,7 @@ article.content a {
 }
 
 article.content a + br + a {
-  @apply mt-3 !text-red-500;
+  @apply inline-block mt-8 !text-red-500;
 }
 
 /* Prevent overflow/scrolling when menu is open */
