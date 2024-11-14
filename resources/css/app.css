@@ -84,13 +84,12 @@ main ul li {
   @apply list-item ml-18
 }
 
-
 article.content a {
   @apply underline underline-offset-4 decoration-2 hover:no-underline;
 }
 
 article.content a + br + a {
-  @apply inline-block mt-8 !text-red-500;
+  @apply inline-block mt-8 mb-8;
 }
 
 /* Prevent overflow/scrolling when menu is open */
