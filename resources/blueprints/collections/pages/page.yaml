@@ -38,6 +38,12 @@ tabs:
                             type: textarea
                             display: Haupttitel
                             localizable: false
+                        -
+                          handle: main_heading_mobile
+                          field:
+                            type: textarea
+                            display: 'Hauptitel Mobile'
+                            localizable: false
                     editor:
                       display: Texteditor
                       instructions: 'Texteditor mit optionalem Titel hinzufügen'
