@@ -89,6 +89,10 @@ article.content a {
   @apply underline underline-offset-4 decoration-2 hover:no-underline;
 }
 
+article.content a + a {
+  @apply mt-3;
+}
+
 /* Prevent overflow/scrolling when menu is open */
 html.has-menu body,
 html.has-menu main {
