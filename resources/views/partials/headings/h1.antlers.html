@@ -1,4 +1,8 @@
 <h1 class="font-serif text-xl mb-24 lg:mb-32 lg:text-3xl col-span-9 2xl:col-span-6 lg:!col-start-3">
-  <span class="sm:hidden">{{ main_heading_mobile | nl2br }}</span>
-  <span class="hidden sm:block">{{ main_heading | nl2br }}</span>
+  {{ if main_heading_mobile }}
+    <span class="sm:hidden">{{ main_heading_mobile | nl2br }}</span>
+    <span class="hidden sm:block"></span>
+  {{ else }}
+    {{ main_heading | nl2br }}
+  {{ /if }}
 </h1>
