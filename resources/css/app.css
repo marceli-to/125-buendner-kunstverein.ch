@@ -89,8 +89,8 @@ article.content a {
   @apply underline underline-offset-4 decoration-2 hover:no-underline;
 }
 
-article.content a + a {
-  @apply mt-3;
+article.content a + br + a {
+  @apply mt-3 !text-red-500;
 }
 
 /* Prevent overflow/scrolling when menu is open */
