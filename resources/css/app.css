@@ -89,7 +89,7 @@ article.content a {
 }
 
 article.content a + br + a {
-  @apply inline-block mt-8 mb-8;
+  @apply inline-block mt-6 mb-12;
 }
 
 /* Prevent overflow/scrolling when menu is open */
