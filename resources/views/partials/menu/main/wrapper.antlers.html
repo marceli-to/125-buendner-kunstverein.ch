@@ -8,5 +8,7 @@
       {{ partial:menu/main/item }}
     {{ /nav:main }}
   </ul>
-  {{ partial:menu/language/wrapper class="mx-auto mt-100 w-full text-center {{ is_homepage ? 'lg:hidden' : '' }}" }}
+  {{ if environment !== 'production' }}
+    {{ partial:menu/language/wrapper class="mx-auto mt-100 w-full text-center {{ is_homepage ? 'lg:hidden' : '' }}" }}
+  {{ /if }}
 </nav>
