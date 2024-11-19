@@ -81,7 +81,7 @@ main ul:last-child {
 }
 
 main ul li {
-  @apply list-item ml-18
+  @apply list-item ml-16
 }
 
 article.content a {
